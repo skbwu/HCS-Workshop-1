@@ -1,17 +1,19 @@
 import React from "react";
 import "./About.css";
-import CutePic from "../../assets/bighappy.png";
+import CutePic from "../../assets/skyler.jpg";
 
 export default function AboutScreen() {
   return (
     <div className="screen-background">
       <div className="intro-background">
         <div className="intro-item">
-          <div>here you'll put a picture of yourself</div>
+            <img src={CutePic} className = "intro-picture" />
         </div>
+        <div>         </div>
         <div className="intro-item">
-          Wow wow wow Your Name is a pretty cool person! check out all these
-          details
+        My name is Skyler Wu, and I am a first-year intending on concentrating in Applied Mathematics in Chemistry with a secondary in Government. 
+        I am very interested in science diplomacy, the practice of using scientific collaboration to address pressing global problems and bring countries together. 
+        I really enjoy cooking, Tae Kwon Do, and playing the violin. My hometown is San Diego, California.
         </div>
       </div>
     </div>
