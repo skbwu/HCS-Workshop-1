@@ -44,10 +44,12 @@ export default function Navbar() {
         <Link className = "nav-link" to={{pathname: "/experience"}}>
           Experiences
           </Link>
+        <Link className = "nav-link" to={{pathname: "/education"}}>
+          Education
+          </Link>
         <Link className = "nav-link" to={{pathname: "/projects"}}>
           Projects
           </Link>
-
       </div>
     </>
   );

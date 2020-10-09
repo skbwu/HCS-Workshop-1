@@ -1,0 +1,26 @@
+.intro-background {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-item {
+  display: flex;
+  flex: 1;
+  padding: 100 px;
+}
+
+.intro-item h1,
+h2,
+ul,
+li {
+  margin: 4px 0;
+}
+
+.intro-item p {
+  margin: 8px 0;
+}
+
+.intro-picture {
+  width: 95%;
+  height: 95%;
+}

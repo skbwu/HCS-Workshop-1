@@ -15,7 +15,7 @@ function TimeLineItem(props) {
 }
 
 export default function ExperienceScreen() {
-  const [activeTitle, setActiveTitle] = React.useState( 'BLANK');
+  const [activeTitle, setActiveTitle] = React.useState( '');
 
   return (
     <div className="screen-background">
@@ -30,8 +30,8 @@ export default function ExperienceScreen() {
         </div>
         <div className="highlight-background">
           <h1>{activeTitle}</h1>
-          <p>all the date information about the selected experience!</p>
-          <h4>description of the selected experience</h4>
+          <p></p>
+          <h4></h4>
         </div>
       </div>
     </div>
